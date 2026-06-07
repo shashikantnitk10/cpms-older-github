@@ -1,0 +1,50 @@
+/* login page */
+* {box-sizing:border-box}
+body {background-color:#e7fff9}
+/* sopra steria logo */
+
+.logo{
+padding-left:560px;
+padding-top:50px;
+}
+
+/* */
+/* container to username password fields and login button */
+.container{
+padding-top:120px;
+padding-left:480px;
+}
+
+/* Username and password labels */
+label{
+font-size:20px;
+font-family:"Verdana",Arial,Helvetica,sans-serif;
+}
+
+/* Username and passord input text*/
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* forgot passord link span of psw class*/
+span.psw {
+       display: block;
+       float: none;
+	   padding-left:350px;
+    }
+	
+/* login button */
+button {
+    background-color: #005e51;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
